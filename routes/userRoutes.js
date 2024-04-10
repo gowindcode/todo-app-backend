@@ -41,7 +41,7 @@ const router = express.Router();
 const UserModel = require("../modules/userModel");
 
 // Route for user registration
-router.post("/signin", async (req, res) => {
+router.post("/signup", async (req, res) => {
   try {
     const { email } = req.body;
 
